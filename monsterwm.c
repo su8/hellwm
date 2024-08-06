@@ -1174,7 +1174,7 @@ void switch_mode(const Arg *arg) {
 
 /**
  * tile clients of the given desktop with the desktop's mode/layout
- * call the tiling handler fucntion taking account the panel height
+ * call the tiling handler function taking account the panel height
  */
 void tile(Desktop *d) {
     if (!d->head || d->mode == FLOAT) return; /* nothing to arange */
